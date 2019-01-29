@@ -28,3 +28,6 @@ mpirun -np n ./wrf.exe
 ```
 
 
+Example
+
+
