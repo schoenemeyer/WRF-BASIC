@@ -5,9 +5,15 @@
 
 
 
-<img src="hhttps://github.com/schoenemeyer/WRF/blob/master/wpswrf.png" width="552">
+<img src="hhttps://github.com/schoenemeyer/WRF-BASIC/blob/master/wpswrf.png" width="552">
 
 Install WPS
+./geogrid.exe
+./ungrib.exe
+./geogrid.exe
+
+./real.exe
+./wrf.exe
 
 
 
