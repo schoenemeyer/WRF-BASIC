@@ -21,12 +21,11 @@ Go to the main directory of WRF
 ```
 mpirun -np n ./real.exe
 ```
-creates boundary and initial data
-run the main forecast  
+creates boundary and initial data for the forecast. Then you can run the main forecast  
+
 ```
 mpirun -np n ./wrf.exe
 ```
-
 
 ## Example for Domain 1 in Central Europe Jan 23 2019 with 12km resolution
 
@@ -55,4 +54,10 @@ ncdump -h wrfout_d01_2019-01-23_15_00_00 | grep TEMP
 [thomas@localhost run]$ 
 
 ```
+Reading data directly from the netcdf files can be easily done with the utilities 
+
+http://www2.mmm.ucar.edu/wrf/src/read_wrf_nc.f
+
+Many more tools are available on the website http://www2.mmm.ucar.edu/wrf/users/download/get_sources.html#utilities
+
 
