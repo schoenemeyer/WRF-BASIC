@@ -96,10 +96,10 @@ DAMP_OPT                                 :     0
 
 ```
 
-For example, get the 2m Temperature for 15 UTC at grid point 50 50 , you would write    
+For example, get the 2m Temperature for 15 UTC at grid point 114 120 , you would write    
 ```
-./read_wrf_nc -S 50 50 1  run/wrfout_d01_2019-01-23_15_00_00 | grep T2
-T2            2   XY  224  199    1   (x=  50 y=  50 z=   1)     288.1537170      K
+./read_wrf_nc -S 114 120 1  run/wrfout_d01_2019-01-23_15_00_00 | grep T2
+T2            2   XY  224  199    1   (x= 114 y= 120 z=   1)     271.0364990      K
 ```
 
 
