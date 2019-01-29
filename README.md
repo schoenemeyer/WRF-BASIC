@@ -58,6 +58,42 @@ Reading data directly from the netcdf files can be easily done with the utilitie
 
 http://www2.mmm.ucar.edu/wrf/src/read_wrf_nc.f
 
-Many more tools are available on the website http://www2.mmm.ucar.edu/wrf/users/download/get_sources.html#utilities
+Many more tools are available on the website   
+http://www2.mmm.ucar.edu/wrf/users/download/get_sources.html#utilities    
+
+This is an example reading the output from the forecast    
+
+```
+./read_wrf_nc wrfout_d01_2019-01-23_15_00_00 INPUT FILE IS: wrfout_d01_2019-01-23_15_00_00
+  
+  error opening netcdf file wrfout_d01_2019-01-23_15_00_00
+[thomas@localhost WRFV3]$ ./read_wrf_nc run/wrfout_d01_2019-01-23_15_00_00
+ INPUT FILE IS: run/wrfout_d01_2019-01-23_15_00_00
+  
+  
+ GLOBAL ATTRIBUTES:
+  
+TITLE                                    :  OUTPUT FROM WRF V3.8.1 MODEL
+START_DATE                               : 2019-01-23_12:00:00
+SIMULATION_START_DATE                    : 2019-01-23_12:00:00
+WEST-EAST_GRID_DIMENSION                 :   225
+SOUTH-NORTH_GRID_DIMENSION               :   200
+BOTTOM-TOP_GRID_DIMENSION                :    32
+DX                                       :   12000.0000
+DY                                       :   12000.0000
+SKEBS_ON                                 :     0
+SPEC_BDY_FINAL_MU                        :     1
+USE_Q_DIABATIC                           :     0
+GRIDTYPE                                 : C
+DIFF_OPT                                 :     1
+KM_OPT                                   :     4
+DAMP_OPT                                 :     0
+....
+.....
+......
+
+
+
+```
 
 
