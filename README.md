@@ -6,6 +6,9 @@
 The high level work flow looks like this:
 
 <img src="https://github.com/schoenemeyer/WRF-BASIC/blob/master/wpswrf.png" width="552">
+This figure is taken from the official User Guide under 
+https://dtcenter.org/wrf-nmm/users/docs/user_guide/V3/users_guide_nmm_chap3.pdf
+
 
 Install WPS
 ```
