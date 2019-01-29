@@ -3,17 +3,25 @@
 
 ## Basic Steps to create you input files to run WRF
 
+The high level work flow looks like this:
 
-
-<img src="hhttps://github.com/schoenemeyer/WRF-BASIC/blob/master/wpswrf.png" width="552">
+<img src="https://github.com/schoenemeyer/WRF-BASIC/blob/master/wpswrf.png" width="552">
 
 Install WPS
+```
 ./geogrid.exe
 ./ungrib.exe
 ./geogrid.exe
+```
+Go to the main directory of WRF
 
-./real.exe
-./wrf.exe
-
+```
+mpirun -np n ./real.exe
+```
+creates boundary and initial data
+run the main forecast  
+```
+mpirun -np n ./wrf.exe
+```
 
 
