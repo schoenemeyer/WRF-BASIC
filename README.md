@@ -31,9 +31,11 @@ mpirun -np n ./wrf.exe
 ## Example for Domain 1 in Central Europe Jan 23 2019 with 12km resolution
 
 <img src="https://github.com/schoenemeyer/WRF-BASIC/blob/master/wrf.png" width="552">
-If you are interested in specific date you can use ncdump, that will provide a list of variables.
+If you are interested in specific date you can use ncdump, that will provide a list of variables.    
+
 ```
 ncdump -h wrfout_d01_2019-01-23_15_00_00
+
 ```
 
 e.g.  if you are looking for Temperatures, you would do    
