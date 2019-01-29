@@ -35,7 +35,8 @@ If you are interested in specific date you can use ncdump, that will provide a l
 ```
 ncdump -h wrfout_d01_2019-01-23_15_00_00
 ```
-e.g.  if you are looking for Temperatures, you would do 
+
+e.g.  if you are looking for Temperatures, you would do    
 
 ```
 ncdump -h wrfout_d01_2019-01-23_15_00_00 | grep TEMP
