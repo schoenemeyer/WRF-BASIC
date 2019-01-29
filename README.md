@@ -28,7 +28,7 @@ mpirun -np n ./wrf.exe
 ```
 
 
-# Example for Domain 1 in Central Europe Jan 23 2019 with 12km resolution
+## Example for Domain 1 in Central Europe Jan 23 2019 with 12km resolution
 
 <img src="https://github.com/schoenemeyer/WRF-BASIC/blob/master/wrf.png" width="552">
 
